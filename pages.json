@@ -1,0 +1,206 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "甘肃省乡村法律顾问库"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "甘肃省乡村法律顾问库"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/user/feedback",
+			"style": {
+				"navigationBarTitleText": "帮助与反馈"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+		// #ifdef APP-PLUS
+		, {
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		}
+		// #endif
+		, {
+			"path": "pages/invited-user/invited-user",
+			"style": {
+				"navigationBarTitleText": "受邀用户"
+			}
+		}
+		// #ifdef H5
+		, {
+			"path": "pages/invite-reg/invite-reg",
+			"style": {
+				"navigationBarTitleText": "邀请注册页面",
+				"navigationStyle": "custom"
+			}
+		}
+		// #endif
+        ,{
+            "path" : "pages/lawyer/lawyer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "律师委托",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/law/law",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "法律法规",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dispute/dispute",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "常见纠纷",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contract/contract",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文书写作",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/contract/contract",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "合同类型",
+                "enablePullDownRefresh": false
+            }
+			},
+			{
+            "path" : "pages/contract/contract",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "甘肃司法",
+                "enablePullDownRefresh": false
+            }
+			},  {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "即时咨询"
+			}
+		},
+		{
+            "path" : "pages/judiciary/judiciary",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "甘肃司法",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/lawad/lawad",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "普法宣传",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/contract/baozhenghetong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "两方保证合同",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contract/dianpuzulinhetong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "店铺租赁合同",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contract/maimaihetong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "两方买卖合同",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "留言咨询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"text": "首页",
+			"iconPath": "static/img/resizeApi10.png",
+			"selectedIconPath": "static/img/resizeApi10.png"
+		}, {
+			"pagePath": "pages/lawyer/lawyer",
+			"text": "律师委托",
+			"iconPath": "static/img/resizeApi5.png",
+			"selectedIconPath": "static/img/resizeApi5.png"
+		}, {
+			"pagePath": "pages/judiciary/judiciary",
+			"text": "甘肃司法",
+			"iconPath": "static/img/resizeApi6.png",
+			"selectedIconPath": "static/img/resizeApi6.png"
+		},
+		{
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/resizeApi7.png",
+			"selectedIconPath": "static/img/resizeApi7.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0bc99d",
+		"backgroundColor": "#fbf9fe"
+	}
+}
